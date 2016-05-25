@@ -45,22 +45,22 @@ body > div > .row {
     display:block;
     height: 100%;
 }
-.col-md-12:nth-child(1){
+#animate1{
     display: block;
     /*height: 100%;*/
-    background: red;
+    background-color: red;
 }
-.col-md-12:nth-child(2){
+#animate2{
         display: block;
 
     /*height: 100%;*/
-    background: green;
+    background-color: green;
 }
-.col-md-12:nth-child(3){
+#animate3{
         display: block;
 
     /*height: 100%;*/
-    background: blue;
+    background-color: blue;
 }
 
 /*Scrollorama*/
@@ -68,4 +68,105 @@ body > div > .row {
 margin: 0;
 width: 100%;
 height: 600px;
+}
+.container, #content-wrapper, #example-wrapper {
+    height: 100%;
+}
+#example-wrapper .scrollContent {
+    height: 100%;
+}
+.demo#section-slides, .demo#section-wipes {
+    height: 100%;
+    width: 100%;
+    background-image: none;
+}
+section#titlechart {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    min-height: 500px;
+    min-width: 100%;
+    height: 569px;
+}
+
+.blue {
+    background-color:blue;
+}
+.turqoise {
+    background-color:turquoise;
+}
+.green {
+    background-color: green;
+}
+.bordeaux {
+    background-color:black;
+}
+.scrollmagic-pin-spacer {
+    top: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    margin: 0px;
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.demo#section-slides .panel > b, .demo#section-wipes .panel > b {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    display: block;
+    height: 0;
+    overflow: visible;
+    top: 50%;
+}
+html.touch form.move {
+    top: 120px;
+}
+
+form.move {
+    text-align: left;
+    position: fixed;
+    top: 70px;
+    left: 20px;
+    display: block;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+    padding: 20px;
+    z-index: 20;
+}
+.spacer.s1 {
+    min-height: 100px;
+}
+
+.spacer.s2 {
+    min-height: 200px;
+}
+
+
+#animate{
+    visibility: hidden;
+    opacity: 0;
+    transform: matrix(0.7, 0, 0, 0.7, 0, 0);
+}
+.box1 p:first-child {
+    margin-top: 27px;
+}
+.box1 p, .box2 p, .box3 p {
+    margin: 5px 15px 5px 15px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+}
+.spacer.s_viewport {
+    min-width: 100%;
+}
+
+.spacer.s_viewport {
+    min-height: 100%;
 }
