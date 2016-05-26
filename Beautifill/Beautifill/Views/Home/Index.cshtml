@@ -3,45 +3,46 @@
 }
 
 @*<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+        <h1>ASP.NET</h1>
+        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+        <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>*@
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                enables a clean separation of concerns and gives you full control over markup
+                for enjoyable, agile development.
+            </p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Get more libraries</h2>
+            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        </div>
+    </div>*@
 
 
 
 
 
 <!--//Jumbotron-->
-@*<div class="jumbotron">
+<a id="top"></a>
+<div class="jumbotron">
     <div class="container">
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
     </div>
-</div>*@
+</div>
 
 
 <div class="container">
@@ -57,7 +58,7 @@
         <div id="example-wrapper">
 
             <div class="scrollContent">
-                <section id="titlechart" style="height: 955px;">
+                <section id="titlechart">
                     <div id="description">
                         <h1 class="badge gsap" title="This example requires the the Greensock Animation Platform.">Anchor Link Scrolling</h1>
                         <h2>Mastering in-page navigation.</h2>
@@ -66,32 +67,35 @@
                         <a href="#" class="viewsource">view source</a>
                     </div>
                 </section>
-                <section class="demo">
-                    <form class="move">
-                        <fieldset>
-                            <legend>Anchor Links</legend>
-                            <p><a href="#top">Top</a></p>
-                            <p><a href="#middle">Middle</a></p>
-                            <p><a href="#bottom">Bottom</a></p>
-                        </fieldset>
-                    </form>
-                    <a id="top"></a>
+                <section class="demo"></section>
+                <form class="move">
+                    <fieldset>
+                        <legend>Anchor Links</legend>
+                        <p><a href="#top">Top</a></p>
+                        <p><a href="#middle">Middle</a></p>
+                        <p><a href="#bottom">Bottom</a></p>
+                    </fieldset>
+                </form>
+
+ 
+                @*<div class="spacer s0"></div>
+                <div id="animate" class="box1 blue">
+                    <p>Peek-a-boo!</p>
+                    <a href="#" class="viewsource">view source</a>
+                </div>*@
+                @*<div class="spacer s2"></div>*@
+                <div class="spacer s_viewport">
                     <div class="spacer s1"></div>
                     <a id="middle"></a>
+                </div>
+                <div class="spacer s_viewport">
                     <div class="spacer s1"></div>
                     <a id="bottom"></a>
-                    <div class="spacer s0"></div>
-                    <div id="animate" class="box1 blue">
-                        <p>Peek-a-boo!</p>
-                        <a href="#" class="viewsource">view source</a>
-                    </div>
-                    <div class="spacer s2"></div>
-
-                </section>
+                </div>
                 <div class="spacer s_viewport"></div>
             </div>
 
 
         </div>
-        </div>
+    </div>
 </div>
