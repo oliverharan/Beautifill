@@ -45,22 +45,22 @@ body > div > .row {
     display:block;
     height: 100%;
 }
-.col-md-12:nth-child(1){
+#animate1{
     display: block;
     /*height: 100%;*/
-    background: red;
+    background-color: red;
 }
-.col-md-12:nth-child(2){
+#animate2{
         display: block;
 
     /*height: 100%;*/
-    background: green;
+    background-color: green;
 }
-.col-md-12:nth-child(3){
+#animate3{
         display: block;
 
     /*height: 100%;*/
-    background: blue;
+    background-color: blue;
 }
 
 /*Scrollorama*/
@@ -69,4 +69,3 @@ margin: 0;
 width: 100%;
 height: 600px;
 }
-
