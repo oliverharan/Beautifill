@@ -1,2 +1,2 @@
 # Beautifill
-ScrollMagic, bootstrap, mvc project
+ScrollMagic, bootstrap, mvc VS project
