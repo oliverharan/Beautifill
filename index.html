@@ -185,7 +185,7 @@
               </div>
             </section>
             <section class="demo">
-              <form class="move">
+              <!--<form class="move">
                 <fieldset>
                   <legend>Anchor Links</legend>
                   <p><a href="#top">Top</a></p>
@@ -194,11 +194,31 @@
                 </fieldset>
               </form>
               <a id="top"></a>
-              <div class="spacer s1"></div>
+              <div class="spacer s1 scrollblock"></div>
               <a id="middle"></a>
-              <div class="spacer s1"></div>
+              <div class="spacer s1 scrollblock"></div>
               <a id="bottom"></a>
-              <div class="spacer s0"></div>
+              <div class="spacer s0 scrollblock"></div>-->
+                          <form class="move">
+                <fieldset>
+                  <legend>Beautifill</legend>
+                  <p><a href="#section1">Section1</a></p>
+                  <p><a href="#section2">Section2</a></p>
+                  <p><a href="#section3">Section3</a></p>
+                  <p><a href="#section4">Section4</a></p>
+                  <p><a href="#section5">Section5</a></p>
+                </fieldset>
+              </form>
+              <a id="section1"></a>
+              <div class="spacer s1 scrollblock"></div>
+              <a id="section2"></a>
+              <div class="spacer s1 scrollblock"></div>
+              <a id="section3"></a>
+              <div class="spacer s0 scrollblock"></div>
+              <a id="section4"></a>
+              <div class="spacer s0 scrollblock"></div>
+              <a id="section5"></a>
+              <div class="spacer s0 scrollblock"></div>
               <div id="animate" class="box1 blue">
                 <p>Peek-a-boo!</p>
                 <a href="#" class="viewsource">view source</a>
@@ -217,7 +237,7 @@
 
                 // build scene
                 var scene = new ScrollMagic.Scene({
-                    triggerElement: "a#top",
+                    triggerElement: "a#section1",
                     duration: 200,
                     triggerHook: "onLeave"
                   })
