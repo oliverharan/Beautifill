@@ -108,6 +108,13 @@ body > div > .row {
     height: 100%;
     background: blue;
 }
+/*Custom Bootstrap*/
+.navbar {
+	z-index: 999999 !important;
+}
+.jumbotron {
+	height: 955px;
+}
 
 /*Scrollorama*/
 .scrollblock {
