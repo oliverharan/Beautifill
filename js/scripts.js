@@ -1,4 +1,30 @@
+jQuery(document).ready(function ($) {
+
+	//NAVIGATION ICONS
+		var navUp = $(".navIcons > li:nth-child(2)");
+		var navDown = $(".navIcons > li:nth-child(1)");
+
+		//Move to next slide DOWN
+		$(navDown).on("click", function () {
+			//alert('Handler for .click() called.');
+			$('html, body').animate({
+				scrollTop: $(window).scrollTop() + 955
+			}, 1300, 'swing');
+		});
+
+		//Move to the next slide UP
+		$(navUp).on("click", function () {
+			//alert('Handler for .click() called.');
+			$('html, body').animate({
+				scrollTop: $(window).scrollTop() - 955
+			}, 1300, 'swing');
+		});
+
+});
+
+
 (function ($) {
+
 	// yay, lets sparkle
 	$.fn.sparkle = function (options) {
 		var

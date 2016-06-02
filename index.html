@@ -55,7 +55,7 @@
   <script src="scrollmagic/minified/ScrollMagic.min.js"></script>
   <script src="scrollmagic/minified/plugins/animation.gsap.min.js"></script>
   <script src="scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
-  <script src="js/demo.js"></script>
+  <script src="js/scripts.js"></script>
 
 
 
@@ -78,7 +78,13 @@
 </head>
 
 <body>
-
+      <!-- Navigation Icons -->
+      <div>
+        <ul class="navIcons">
+            <li><div id="circle"><span class="rotateTextDown"></span></div> </li>
+          <li><div id="circle"><span class="rotateTextUp"></span></div> </li>
+        </ul>
+      </div>
       <!--//Navigation-->
       
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -277,6 +283,7 @@
               <div class="spacer s2"></div>
               <script type="text/javascript" src="js/lib/greensock/plugins/ScrollToPlugin.min.js"></script>
               <script>
+
                 // init controller
                 var controller = new ScrollMagic.Controller();
 

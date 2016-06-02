@@ -1,3 +1,4 @@
+
 // SETTINGS
 var
 	MENU = {
@@ -204,6 +205,7 @@ function enableScroll (elem) {
 }
 
 $(document).ready(function () {
+	
 	// prepare highlight js
 	
 
