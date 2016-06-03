@@ -19,8 +19,24 @@ jQuery(document).ready(function ($) {
 				scrollTop: $(window).scrollTop() - 955
 			}, 1300, 'swing');
 		});
-	//END NAVIGATION ICONS
+		//END NAVIGATION ICONS
+		
+		var url = window.location;
+// Will only work if string in href matches with location
+$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
 
+//Active Menu Item from URL
+// Will also work for relative and absolute hrefs
+$('ul.nav a').filter(function() {
+    return this.href == url;
+}).parent().addClass('active');
+
+//Active Menu item from click/touch
+$('ul.nav li a').click(function(e) {
+    var $this = $(this);
+    $this.parent().siblings().removeClass('active').end().addClass('active');
+    e.preventDefault();
+});
 
 });
 
