@@ -148,8 +148,8 @@ body > div > .row {
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
-	  -webkit-filter: drop-shadow(-2px 2px 2px #222);
-  filter: drop-shadow(-2px -px 2px #222);
+	  -webkit-filter: drop-shadow(-1px 1px 1px #555);
+  filter: drop-shadow(-1px -1px 1px #555);
 	/*-webkit-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.5);
 	-moz-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.5);
 	box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.5);*/
@@ -168,13 +168,15 @@ body > div > .row {
 	-moz-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
-	  -webkit-filter: drop-shadow(2px -2px 2px #222);
-  filter: drop-shadow(2px -2px 2px #222);
+	  -webkit-filter: drop-shadow(1px -1px 1px #555);
+  filter: drop-shadow(1px -1px 1px #555 );
 		/*-webkit-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.5);
 	-moz-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.5);
 	box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.5);*/
 }
 /*Custom Bootstrap*/
+
+
 .navbar {
 	z-index: 999999 !important;
 }
