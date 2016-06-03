@@ -107,13 +107,22 @@ body > div > .row {
     height: 100%;
     background: blue;
 }
+.navContainer {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 999999;
+
+}
 .navIcons {
-	list-style-type: none;
+	/*list-style-type: none;
 	bottom: 1em;
 	right: 50%;
-	z-index: 999999;
 	position: fixed;
-	margin: 0;
+	margin: 0;*/
+	padding: 0;
 }
 .navIcons li {
 	display: inline-block;
@@ -121,6 +130,11 @@ body > div > .row {
     line-height: inherit;
     margin-bottom: 0;
     font-weight: normal;
+	position: fixed;
+	bottom: 1.5%;
+}
+.navIcons li:first-child{
+	margin-left: -48px;
 }
 .navIcons li:last-child {
 	padding-left: 20px;
@@ -176,10 +190,6 @@ body > div > .row {
 }
 /*Custom Bootstrap*/
 
-
-.navbar {
-	z-index: 999999 !important;
-}
 .jumbotron {
 	height: 955px;
 }
