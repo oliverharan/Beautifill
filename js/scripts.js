@@ -19,6 +19,8 @@ jQuery(document).ready(function ($) {
 				scrollTop: $(window).scrollTop() - 955
 			}, 1300, 'swing');
 		});
+	//END NAVIGATION ICONS
+
 
 });
 
