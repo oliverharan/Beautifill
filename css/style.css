@@ -73,9 +73,9 @@ html[xmlns] .clearfix {
 
 
 body > .jumbotron {
-display: block;
+/*display: block;
 position: relative;
-top:40px; 
+top:40px; */
    
 }
 
@@ -192,15 +192,43 @@ body > div > .row {
 
 .jumbotron {
 	height: 955px;
+	padding: 0;
+	margin: 0;
 }
-
+.jumbotron > .container{
+	background: transparent url('../img/jt_slide02.jpg') top left no-repeat;
+	}
+.jtContainer {
+	display: block;
+	width: 400px;
+	height: 563px;
+	float: right;
+	text-align: right;
+	margin-top: 28em;
+	margin-right: 4em;
+}
+.jtContainer > h3 {
+	font-size: 400%;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: -.035em;
+}
+.jtContainer> h3:not(:first-child){
+	margin-top: -15px;
+}
+.jtContainer > p:nth-child(3) {
+	font-size: 200%;
+}
 /*Scrollorama*/
 .scrollblock {
 margin: 0;
 width: 100%;
 height: 955px;
 }
-
+#example-wrapper > div > section > div:nth-child(2) {
+	background: transparent url('../img/section1.jpg') top left no-repeat;
+	
+}
 @media (min-width: 768px) {
 .navbar-nav {
     float: right !important;
