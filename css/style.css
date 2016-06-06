@@ -219,6 +219,56 @@ body > div > .row {
 .jtContainer > p:nth-child(3) {
 	font-size: 200%;
 }
+
+/* SECTION1 */
+
+#example-wrapper > div > section > div:nth-child(2) > div:nth-child(2) > ul {
+	display: block;
+	width: 450px;
+	list-style-type: none;
+	float: right;
+	margin: 30px 20px 0 0;
+		/*text-align: center;*/
+	margin: 70px 0 50px 0;
+	padding: 0;
+
+}
+#example-wrapper > div > section > div:nth-child(2) > div:nth-child(2) > ul > li{
+	display: block;
+	float: left;	
+	height: 80px;
+}
+
+.s1 > div {
+	float: right;
+	clear: right;	
+}
+#example-wrapper > div > section > div:nth-child(2) > div:nth-child(2) > h1{
+	font-size: 800%;
+	font-weight: bold;
+	text-transform: lower case;
+	opacity: .25;
+}
+#example-wrapper > div > section > div:nth-child(2) > div:nth-child(3) > h4 {
+	font-size: 300%;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: right;
+		margin: 60px 0 0 0;
+
+}
+#example-wrapper > div > section > div:nth-child(2) > div:nth-child(3) > p {
+	display: block;
+	width:400px;
+	font-size: 200%;
+	text-align: right;
+	margin: 15px 0 40px 0;
+}
+#example-wrapper > div > section > div:nth-child(2) > div:nth-child(1) {
+	display: block;
+	margin:60px 0px 0 400px;
+	float: left;
+}
 /*Scrollorama*/
 .scrollblock {
 margin: 0;
